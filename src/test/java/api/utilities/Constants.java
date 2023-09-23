@@ -1,0 +1,80 @@
+package api.utilities;
+
+import java.io.File;
+
+public class Constants {
+	
+	public static String Excelpath = "C:\\Users\\User\\eclipse-workspace\\Team12-Api-CodeWarriors\\src\\test\\resources\\testdata\\Team12-APICodeWarriors_TestData.xlsx";
+	public static File Assignment_Post_Schema = new File("src/test/resources/Assignment_Schemas/Assignment_Post_Schema.json");
+	public static File Assignment_Post_Schema2 = new File("src/test/resources/Assignment_Schemas/Assignment_Post_Schema2.json");
+	public static File Assignment_Post_Schema3 = new File("src/test/resources/Assignment_Schemas/Assignment_Post_Schema3.json");
+	public static File Assignment_Put_Schema1 = new File("src/test/resources/Assignment_Schemas/Assignment_Put_Schema1.json");
+	public static String post_url;
+	public static String get_all_assignments_url;
+	public static String Invalid_Endpoint_url;
+	public static String Get_By_Id_url;
+	public static String Get_By_BatchId_url;
+	public static String put_url;
+	public static String Delete_url;
+	public static int Assignment_Id_Chaining;
+	public static String Excel_Batch_ID;
+	public static int ExpectedStatusCode1 = 201;
+	public static int ExpectedStatusCode2 = 400;
+	public static int ExpectedStatusCode3 = 500;
+	public static int ExpectedStatusCode4 = 404;
+	public static int ExpectedStatusCode5 = 200;
+	public static int ExpectedStatusCode6 = 405;
+	public static String ExpectedContentType = "application/json";
+	public static String ExpectedStatusLine1= "HTTP/1.1 201 ";
+	public static String ExpectedStatusLine2= "HTTP/1.1 400 ";
+	public static String ExpectedStatusLine3= "HTTP/1.1 404 ";
+	public static String ExpectedStatusLine4= "HTTP/1.1 200 ";
+	public static String ExpectedStatusLine5= "HTTP/1.1 405 ";
+	public static String Message1 = "Assignment already exists with given Name : Jul23-APICodeWarriors-SDET-9876 ";
+	public static String Message2 = "Assignment Name is mandatory";
+	public static String Message3 = "Assignment Description is mandatory";
+	public static String Message4 = "Internal Server Error";
+	public static String Message5 = "User not found with Role(Admin/Staff) : U1111 ";
+	public static String Message6 = "User not found with ID : U1111 ";
+	public static String Message7 = "Assignment not found with Id : 1 ";
+	public static String Message8 = "Batch not found with Id : 99 ";
+	public static String Message9 = "Assignments not found with BatchId : 7205 ";
+	public static String Message10 = "Assignment deleted successfully";
+	public static String Message11 = "Method Not Allowed";
+	public static int Batch_With_No_Assignments = 7205;
+	public static int Invalid_Assignment_Id = 1;
+	public static int Invalid_BatchId= 99;
+	public static String AssignDesc = "Cucumber Assignment - ";
+	public static String AssignName = "Jul23-APICodeWarriors-SDET-";
+	public static String Comments = "Created for Testing";
+	public static String Duedate = "2023-07-27T19:45:19.677+00:00";	
+	public static int BatchId = 7206;
+	public static String CreatedBy = "U7841";	
+	public static String GraderID = "U7841";
+	public static String PathAttach1 = "File1.json";		
+	public static String PathAttach2= "File2.json";		
+	public static String PathAttach3= "File3.json";		
+	public static String PathAttach4= "File4.json";		
+	public static String PathAttach5= "File5.json";	
+	public static int Response_AssignId;
+	public static String Response_AssignDesc;
+	public static String Response_AssignName;
+	public static String Response_Comments;
+	public static String Response_Duedate;	
+	public static int Response_BatchId;
+	public static String Response_CreatedBy;	
+	public static String Response_GraderID;
+	public static String Response_PathAttach1;		
+	public static String Response_PathAttach2;		
+	public static String Response_PathAttach3;		
+	public static String Response_PathAttach4;		
+	public static String Response_PathAttach5;	
+
+	public static int ExpectedAssignmentId;
+	public static String ExpectedAssignmentName;
+	public static String ExpectedAssignmentDescription;
+	public static int ExpectedBatchId;
+	public static String ExpectedcreatedBy;
+	public static String ExpectedgraderId;
+	
+}

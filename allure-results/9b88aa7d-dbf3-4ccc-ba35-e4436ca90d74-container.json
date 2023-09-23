@@ -1,0 +1,1 @@
+{"uuid":"9b88aa7d-dbf3-4ccc-ba35-e4436ca90d74","name":"Scenario: Check if user able to retrieve a submission with invalid Batch Id for Assignment Submit Module","children":["13462006-e751-4f4f-ba55-48b8ba6f27dc"],"befores":[],"afters":[],"start":1695486036690,"stop":1695486041865}

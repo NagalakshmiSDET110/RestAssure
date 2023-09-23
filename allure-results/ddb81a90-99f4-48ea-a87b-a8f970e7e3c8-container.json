@@ -1,0 +1,1 @@
+{"uuid":"ddb81a90-99f4-48ea-a87b-a8f970e7e3c8","name":"Scenario: Check if user able to create a submission missing mandatory fields in request body","children":["356d0418-674f-425d-81e5-7da684a096f1"],"befores":[],"afters":[],"start":1695486000118,"stop":1695486000134}

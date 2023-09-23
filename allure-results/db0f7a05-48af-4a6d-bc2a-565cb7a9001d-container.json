@@ -1,0 +1,1 @@
+{"uuid":"db0f7a05-48af-4a6d-bc2a-565cb7a9001d","name":"Scenario: Check if user able to retrieve a record with valid Assignment ID for Assignment Module","children":["0bbc7c3f-5bcb-4385-818b-099c34fa1212"],"befores":[],"afters":[],"start":1695485947798,"stop":1695485952983}

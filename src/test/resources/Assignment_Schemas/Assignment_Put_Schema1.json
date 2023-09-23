@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "assignmentId": {
+          "type": "integer"
+        },
+        "assignmentName": {
+          "type": "string"
+        },
+        "assignmentDescription": {
+          "type": "string"
+        },
+        "comments": {
+          "type": "string"
+        },
+        "dueDate": {
+          "type": "string"
+        },
+        "pathAttachment1": {
+          "type": "string"
+        },
+        "pathAttachment2": {
+          "type": "string"
+        },
+        "pathAttachment3": {
+          "type": "string"
+        },
+        "pathAttachment4": {
+          "type": "string"
+        },
+        "pathAttachment5": {
+          "type": "string"
+        },
+        "batchId": {
+          "type": "integer"
+        },
+        "createdBy": {
+          "type": "string"
+        },
+        "graderId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "assignmentId",
+        "assignmentName",
+        "assignmentDescription",
+        "comments",
+        "dueDate",
+        "pathAttachment1",
+        "pathAttachment2",
+        "pathAttachment3",
+        "pathAttachment4",
+        "pathAttachment5",
+        "batchId",
+        "createdBy",
+        "graderId"
+      ]
+    }
+  ]
+}

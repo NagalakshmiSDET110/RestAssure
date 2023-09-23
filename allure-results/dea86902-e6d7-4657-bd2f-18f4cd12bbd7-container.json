@@ -1,0 +1,1 @@
+{"uuid":"dea86902-e6d7-4657-bd2f-18f4cd12bbd7","name":"Scenario: Check if user able to retrieve a batch with invalid BATCH NAME","children":["0eb76767-4614-443a-ae4f-31c86ca14312"],"befores":[],"afters":[],"start":1695485852874,"stop":1695485858051}

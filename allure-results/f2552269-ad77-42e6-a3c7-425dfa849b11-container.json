@@ -1,0 +1,1 @@
+{"uuid":"f2552269-ad77-42e6-a3c7-425dfa849b11","name":"Scenario Outline: Check if user able to update a record with valid AssignmentID and missing mandatory field Assignment Description for Assignment Module","children":["a24b239e-8adf-4be4-9a38-62aa8ac4d569"],"befores":[],"afters":[],"start":1695485979138,"stop":1695485979141}

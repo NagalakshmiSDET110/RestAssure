@@ -1,0 +1,1 @@
+{"uuid":"4f8000fb-cfa5-44c8-afad-86419b333b76","name":"Scenario Outline: Check if user able to add a record with valid endpoint and request body in Assignment module (non existing values)","children":["936839a5-573f-449b-82bc-f61f5a3a8536"],"befores":[],"afters":[],"start":1695485937038,"stop":1695485937045}
